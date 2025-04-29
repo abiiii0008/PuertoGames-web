@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuertoGames - Inicio</title>
+    <link rel="stylesheet" href="css/index.css"> 
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <h1>PuertoGames</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="producto.html">Producto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <img src="assets/Leonardo_Phoenix_09_A_cozy_and_modern_local_video_game_store_i_0.jpg" alt="Banner principal de PuertoGames">
+            <h2>¡Bienvenido a PuertoGames!</h2>
+            <p>Encuentra los mejores videojuegos al mejor precio.</p>
+        </section>
+
+        <section class="categorias">
+            <h2>Categorías</h2>
+            <div class="categoria">
+                <img class="img-categorias" src="https://juegosdigitaleschile.com/files/images/productos/1689984797-pack-de-6-juegos-accion-ps5-0.jpg" alt="Juegos de acción">
+                <p>🎮 Acción</p>
+            </div>
+            <div class="categoria">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0NHfXPdETDlKV6i4vHUF1nky2gpuCmpX549Ve3vPlqjQ__tGndX97L3iyb6oSOr-6qw&usqp=CAU" alt="Juegos de estrategia">
+                <p>🧩 Estrategia</p>
+            </div>
+            <div class="categoria">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6AguKqBJFM00Wvwl1m7y5KlCoKQt9u8cwgD83d8IywJMOUACejJub5ZMtPQW1Pu8btA&usqp=CAU" alt="Juegos de carreras">
+                <p>🏎️ Carreras</p>
+            </div>
+        </section>
+
+        <section class="galeria">
+            <h2>Productos destacados</h2>
+            <div class="producto">
+                <img src="https://static.fnac-static.com/multimedia/Images/FR/NR/8b/2e/e5/15019659/1545-1/tsp20230105175339/God-Of-War.jpg" alt="Juego destacado 1">
+                <p>God of war</p>
+            </div>
+            <div class="producto">
+                <img src="https://play-lh.googleusercontent.com/nAWmbNnwOulhcjMcUZVu8csePMqiwYGVKHBrNpDUIGMs_N8ypm9jg682TnZdlNMjJmQ=w600-h300-pc0xffffff-pd" alt="Juego destacado 2">
+                <p>Call of duty</p>
+            </div>
+        </section>
+
+        <section class="cta">
+            <p>¿Listo para jugar? Visita nuestra tienda ahora.</p>
+            <a href="contacto.html" class="btn">Contáctanos</a>
+        </section>
+
+        <footer class="footer">
+            <p>Contacto: contacto@puertogames.com | Teléfono: +56 9 1234 5678</p>
+        </footer>
+    </div>
+</body>
+</html>
